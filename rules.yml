@@ -1,0 +1,33 @@
+a:
+  attrs:
+    rel:
+      rules:
+        - required: true
+h1:
+  rules:
+    - max: 1
+      summary: This HTML have more than one <h1> tag
+img:
+  attrs:
+    alt:
+      rules:
+        - required: true
+meta:
+  attrs:
+    name:
+      values:
+        descriptions:
+          rules:
+            - min: 1
+        keywords:
+          rules:
+            - min: 1
+  parent: head
+strong:
+  rules:
+    - max: 15
+title:
+  parent: head
+  rules:
+    - min: 1
+  
