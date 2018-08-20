@@ -1,6 +1,6 @@
 {
   "name": "shopback-assignment-seolint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "prepublish": "npm run build",
     "test": "mocha ./dist/test/tests.js"
   },
-  "author": "",
+  "author": "Sean Tseng <cdsurfer0212@gmail.com>",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "js-yaml": "^3.12.0"
@@ -23,5 +23,9 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
     "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdsurfer0212/shopback-assignment-seolint.git"
   }
 }
